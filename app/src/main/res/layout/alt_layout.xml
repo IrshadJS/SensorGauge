@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="26dp"
+        android:id="@+id/fld1"
+        android:hint="collecting_nodes" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fld1"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginTop="24dp"
+        android:id="@+id/txt2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="9dp"
+        android:id="@+id/fld3"
+        android:layout_below="@+id/fld2"
+        android:layout_alignLeft="@+id/fld2"
+        android:layout_alignStart="@+id/fld2"
+        android:hint="collecting_properties" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/fld3"
+        android:layout_alignLeft="@+id/fld3"
+        android:layout_alignStart="@+id/fld3"
+        android:layout_marginTop="7dp"
+        android:id="@+id/fld4"
+        android:hint="collecting_data" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:layout_alignBaseline="@+id/fld1"
+        android:layout_alignBottom="@+id/fld1"
+        android:layout_toLeftOf="@+id/fld1"
+        android:layout_toStartOf="@+id/fld1"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fld3"
+        android:layout_alignLeft="@+id/txt2"
+        android:layout_alignStart="@+id/txt2"
+        android:layout_marginTop="12dp"
+        android:id="@+id/txt3" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fld5"
+        android:layout_alignLeft="@+id/txt3"
+        android:layout_alignStart="@+id/txt3"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txt4" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt5"
+        android:layout_alignBaseline="@+id/fld5"
+        android:layout_alignBottom="@+id/fld5"
+        android:layout_alignLeft="@+id/txt4"
+        android:layout_alignStart="@+id/txt4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/fld5"
+        android:layout_below="@+id/fld4"
+        android:layout_alignLeft="@+id/fld4"
+        android:layout_alignStart="@+id/fld4"
+        android:hint="collecting_names" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt6"
+        android:layout_alignRight="@+id/txt6"
+        android:layout_alignEnd="@+id/txt6"
+        android:layout_marginTop="34dp"
+        android:id="@+id/txt7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt7"
+        android:layout_alignLeft="@+id/txt7"
+        android:layout_alignStart="@+id/txt7"
+        android:layout_marginTop="29dp"
+        android:id="@+id/txt8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt8"
+        android:layout_alignRight="@+id/txt8"
+        android:layout_alignEnd="@+id/txt8"
+        android:layout_marginTop="31dp"
+        android:id="@+id/txt9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/txt10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/txt9"
+        android:layout_alignStart="@+id/txt9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/updatebtn"
+        android:layout_below="@+id/fld5"
+        android:layout_alignLeft="@+id/fld5"
+        android:layout_alignStart="@+id/fld5"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:onClick="updatefx"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/txt6"
+        android:layout_below="@+id/updatebtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/updatebtn"
+        android:layout_toLeftOf="@+id/fld5"
+        android:layout_toStartOf="@+id/fld5"
+        android:id="@+id/backbtn"
+        android:onClick="backfx"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/fld2"
+        android:layout_alignBaseline="@+id/txt2"
+        android:layout_alignBottom="@+id/txt2"
+        android:layout_alignLeft="@+id/fld1"
+        android:layout_alignStart="@+id/fld1"
+        android:hint="collecting_title" />
+</RelativeLayout>
